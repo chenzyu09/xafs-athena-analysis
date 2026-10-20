@@ -1,0 +1,5 @@
+xraylarch
+numpy
+scipy
+matplotlib
+openpyxl

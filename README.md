@@ -18,6 +18,10 @@ A Claude Skill for analyzing XAFS data stored in Athena (Demeter) project files:
 2. Claude → **Customize → Skills** → **+** → **Create skill** → **Upload a skill**，上传 ZIP。
 3. 之后发送 `athena.prj` 并说明需求（如“分析一下”“画成 Origin 的图”）即可。
 
+## 不用 Claude 也能用：standalone 程序
+
+`standalone/` 文件夹里是独立的 Python 程序 `xafs_plot.py`。没有 Claude 账号也能用：一条命令就能生成论文风格图、Origin 作图脚本、Excel 数据和检查报告。使用方法见 [standalone/README.md](standalone/README.md)。
+
 ## 说明与局限
 
 - 分析结果为定性/半定量，配位数与键长需在 Artemis 等软件中做 EXAFS 拟合。
